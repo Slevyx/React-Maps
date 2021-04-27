@@ -1,0 +1,156 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_container {
+  width: calc(100% - 100px);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgb(243, 66, 66);
+}
+
+.input_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+
+.add_button {
+  width: 25%;
+}
+
+.main_container::before {
+  content: "USA States List";
+  margin-bottom: 5px;
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.input_container::before {
+  color: white;
+  font: 16px bolder;
+  font-family: fantasy;
+  font-style: oblique;
+  margin-right: 10px;
+  content: "Filter:";
+}
+
+.main_container_map {
+  width: calc(100% - 100px);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgb(243, 66, 66);
+}
+
+.input_container_map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+
+.main_container_map::before {
+  content: "SGROOGOL MAPS";
+  margin-bottom: 5px;
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.input_container_map::before {
+  color: white;
+  font: 16px bolder;
+  font-family: fantasy;
+  font-style: oblique;
+  margin-right: 10px;
+  content: "Search for a motherfucking location, you dumbass:";
+}
+
+.input_field {
+  width: 35%;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+tr.fields {
+  color: white;
+  font: 24px bolder;
+  font-family: fantasy;
+  font-style: oblique;
+  margin: 20px;
+}
+
+.loading_image {
+  width: 400px;
+  height: auto;
+  margin-top: 30px;
+}
+
+.list_image {
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.element_one {
+  width: calc(100% - 65px);
+  background-color: orange;
+}
+
+.element_two {
+  width: calc(100% - 65px);
+  background-color: rgb(233, 216, 68);
+}
+
+.close {
+  position: absolute;
+  right: 45px;
+  color: red;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.arrow_container {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.arrow_image {
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.arrow_text {
+  font: 24px bolder;
+  font-family: fantasy;
+  font-style: oblique;
+}
